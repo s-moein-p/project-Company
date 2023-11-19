@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "Estedad-bold";
+    font-weight: bold;
+    src: url("../font/Estedad-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Estedad";
+    font-weight: bold;
+    src: url("../font/Estedad-Light.ttf") format("truetype");
+}
+
+.font {
+    font-family: Estedad-bold;
+}
+
+* {
+    font-family: Estedad;
+}
+
+.img-logo {
+    width: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    /* padding: 5px; */
+    cursor: pointer;
+}
+
+li {
+    color: #000000;
+}
+
+img {
+    border-radius: 12px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #808080;
+}
+
+.home {
+    background: url("../img/1home.jpg") no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.Televisions {
+    background: url("../img/1Televisions.jpg") no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.services {
+    background: url("../img/01-2.jpg") no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.about {
+    background: url("../img/01.jpg") no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.hero .hero-content {
+    width: 90%;
+}
+
+.nav {
+    background-color: #FCE4EC;
+}
+
+.box {
+    border-radius: 55px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-size: 22px;
+    height: 100%;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+.set-card {
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    box-shadow: 10px #97b1bd;
+}
+
+.set-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.why-us .quote-bg {
+    background-color: #2f4054;
+}
+
+.why-us .quote-bg {
+    height: 30vw;
+}
+
+.why-us {
+    color: #ffffff;
+}
+
+footer a {
+    background-color: #f9f2f27e;
+    /* border-radius: 12px; */
+    /* border: 1px solid #663399; */
+    transform: 1s;
+    transition: 1s;
+}
+
+footer a:hover {
+    color: #ce6400;
+    /* border: 1px solid #663399;
+    border-radius: 12px; */
+    transform: 1s;
+    transition: 1s;
+}
+
+footer {
+    background-color: #e5effa;
+}
+
+.boxtext {
+    background-color: #d9e0e4;
+}
+
+h6 {
+    background-color: #FBE9E7;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.but {
+    border-radius: 20px;
+}
+
+.but:hover {
+    border: 2px solid #3f98b8;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about-us {
+        width: 50%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .hero {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero .hero-content {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-us {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .sm-icons .nav-item {
+        padding-right: 1em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        padding: 2rem 5rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .why-us {
+        padding: 2rem 1rem 0;
+        color: #000000;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .why-us .quote-bg {
+        height: 40vh;
+    }
+}
